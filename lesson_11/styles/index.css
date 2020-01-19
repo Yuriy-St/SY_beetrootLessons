@@ -1,0 +1,55 @@
+.header {
+  
+  position: absolute;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background-image: url('./../images/bg.png');
+  background-size: cover;
+  background-position: 100% 20%;
+  background-repeat: no-repeat;
+}
+
+.hero-section__container {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section__title-block {
+
+}
+
+.about-section {
+  background-color: #00C4C4;
+}
+
+.about-section__container {
+  min-height: 740px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.subtitle--hero {
+  margin-bottom: 30px;
+
+}
+
+.button {
+  height: 55px;
+  min-width: 200px;
+  background-color: #FF6033;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 0 24px;
+  box-shadow: 0 4px 10px blur #00000080;
+}
+
+.button--herro {
+  background-color: #fff;
+}

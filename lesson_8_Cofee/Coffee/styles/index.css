@@ -1,0 +1,86 @@
+.label {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 366px;
+  min-height: 466px;
+  margin: 12px;
+  background: #aa15cf;
+}
+
+.label--big {
+  height: 506px;
+}
+
+.label__price {
+  font-size: 72px;
+  font-weight: 700;
+  color: #02995b;
+  text-align: center;
+}
+
+.label__text-block {
+  text-align: center;
+}
+
+.label__title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.label__prop {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.coffee {
+  position: relative;
+  width: 135px;
+  height: 135px;
+}
+
+.coffee__cup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 77px;
+  background-image: url("./../images/cup.png");
+  -webkit-mask-image: image("./../images/cup.png", white);
+  mask-image: image("./../images/cup.png", white);
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.coffee__bean {
+  position: absolute;
+  bottom: 16px;
+  left: 40px;
+}
+
+.coffee__smoke {
+  position: absolute;
+  width: 49px;
+  height: 46px;
+  top: 0;
+  left: 36px;
+  background-image: url("./../images/smoke.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.coffee__theme--bronze {
+  background-color: #ff7900;
+}
+
+.coffee__theme--gold {
+  background-color: #ffc928;
+}
+
+.coffee__theme--silver {
+  background-color: #bdbdbd;
+}

@@ -1,0 +1,101 @@
+.root {
+    height: 100vh;
+    width: 100vw;
+    background: #3399CC;
+    border: 10px solid #2B81AC;
+    color: white;
+    padding: 16px;
+}
+
+.fc__wrapper {
+    height: 100%;
+    margin: 700px;
+    margin: 0px auto;
+}
+
+.fc__wrapper header {
+    margin: 20px 0;
+}
+
+.fc {
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    font-size: 0;
+    padding: 3px;
+    list-style: none;
+}
+
+.fc li {
+    display: inline-block;
+    width: calc(25% - 6px);
+    height: 120px;
+    max-height: 120px;
+    margin: 3px;
+    font-size: 14px;
+    transition: opacity .2s ease;
+}
+
+.fc:hover li:not(:hover) {
+    opacity: .5;
+}
+
+.fc li.fc__item--middle {
+    width: calc(50% - 6px);
+}
+
+.fc li.fc__item--big {
+    width: calc(100% - 6px);
+}
+
+.fc li.color-Lb {
+    background-color: #3399cc;
+}
+
+.fc li.color-Prs {
+    background-color: #33cccc;
+}
+
+.fc li.color-Blgr {
+    background-color: #996699;
+}
+
+.fc li.color-Kv {
+    background-color: #C24747;
+}
+
+.fc li.color-TAv {
+    background-color: #e2674a;
+}
+
+.fc li.color-Cr {
+    background-color: #FFCC66;
+}
+
+.fc li.color-NY {
+    background-color: #99cc99;
+}
+
+.fc li.color-ND {
+    background-color: #669999;
+}
+
+.fc li.color-SFC {
+    background-color: #cc6699;
+}
+
+.fc li.color-Tk {
+    background-color: #339966;
+}
+
+.fc li.color-Sdn {
+    background-color: #666699;
+}
+
+.inv {
+    border: 1px solid black;
+}
+
+.wish p {
+    padding: 30px 0;
+}

@@ -1,0 +1,76 @@
+.slide {
+  position: relative;
+  display: flex;
+
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: $primaryMain;
+  }
+
+  &__avatar-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    padding-right: 70px;
+  }
+
+  &__avatar-decor {
+    position: relative;
+    max-width: 418px;
+    padding: 16px;
+
+  }
+
+  &__avatar-decor-elem {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    &--top-left {
+      top: 0;
+      left: 0;
+      border-top: 1px solid $primaryMain;
+      border-left: 1px solid $primaryMain;
+    }
+
+    &--top-right {
+      top: 0;
+      right: 0;
+      border-top: 1px solid $primaryMain;
+      border-right: 1px solid $primaryMain;
+    }
+
+    &--bottom-right {
+      bottom: 0;
+      right: 0;
+      border-bottom: 1px solid $primaryMain;
+      border-right: 1px solid $primaryMain;
+    }
+
+    &--bottom-left {
+      bottom: 0;
+      left: 0;
+      border-bottom: 1px solid $primaryMain;
+      border-left: 1px solid $primaryMain;
+    }
+  }
+
+  &__avatar {
+    width: 386px;
+    height: 386px;
+    border: 1px solid $primaryMain;
+  }
+
+  &__data-block {
+    width: 50%;
+    padding-left: 70px;
+  }
+}
